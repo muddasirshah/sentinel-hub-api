@@ -53,6 +53,14 @@ You can install all of the necessary dependencies by running the following comma
 `pip install -r requirements.txt`
 For conda environment first create an environment with python=3.9.5 and then run the `setup.py` file
 
+<b> conda create -n environmentname python=3.9.5 gdal</b> <br>
+<b> conda activate environmentname </b><br>
+<b> pip install pyproj </b><br>
+Change username and environmentname after importing os module if you are using the GDAL scripts with conda environment <br>
+<b> import os</b> <br>
+<b> os.environ['PROJ_LIB'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share\\proj' </b><br>
+<b> os.environ['GDAL_DATA'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share' </b>
+
 **Usage**
 
 
