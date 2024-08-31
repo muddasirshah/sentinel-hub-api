@@ -28,7 +28,7 @@ def get_version():
 
 
 setup(
-    name='fd',
+    name='name',
     python_requires='>=3.6',
     version=get_version(),
     description='EO Research Field Delineation',
