@@ -11,8 +11,10 @@
 import os
 import re
 from setuptools import setup, find_packages
-os.environ['PROJ_LIB'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share\\proj'
-os.environ['GDAL_DATA'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share'
+
+# For Conda Environment Uncomment these (see the readme file first)
+# os.environ['PROJ_LIB'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share\\proj'
+# os.environ['GDAL_DATA'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share'
 
 
 def parse_requirements(file):
