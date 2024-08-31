@@ -51,6 +51,7 @@ To run these script, you'll need to have the following installed on your compute
 You can install all of the necessary dependencies by running the following command:
 
 `pip install -r requirements.txt`
+<br>
 For conda environment first create an environment with python=3.9.5 and then run the `setup.py` file
 
 <b> conda create -n environmentname python=3.9.5 gdal</b> <br>
