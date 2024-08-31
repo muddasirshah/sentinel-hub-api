@@ -24,7 +24,7 @@ from tqdm.auto import tqdm
 
 from sentinelhub import Geometry, CRS, BatchSplitter, SentinelHubBatch, SentinelHubRequest, DataCollection, \
     BatchRequest, BatchRequestStatus
-from .utils import BaseConfig, set_sh_config
+from utils import BaseConfig, set_sh_config
 
 LOGGER = logging.getLogger(__name__)
 
