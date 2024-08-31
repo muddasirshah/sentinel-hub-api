@@ -74,8 +74,10 @@ To use this scripts, you'll need to provide the following:
 `python S1_data_downlaod.py`
 `python S2_data_downlaod.py`
 
-
-**Contributing**
+<br>
+Provide Your AWS Credentials and Sentinel-Hub API Credentials in the following files `config.ini` `S2_data_download.py` and `S1_data_download.py` <br>
+Change to Specefic Bands for S2 change the list in `S2_data_download.py` and `data_evalscript.js` deafult [B2,B3,B4,B8,B11]<br>
+Run the Script `python S2_data_downlaod.py` or `python S1_data_downlaod.py`
 
 If you find a bug or have a feature request, please open an issue on GitHub. If you'd like to contribute to the project, please fork the repository and submit a pull request.
 
