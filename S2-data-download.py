@@ -15,8 +15,8 @@ import numpy as np
 import glob
 from sentinelhub import SHConfig
 from shapely.geometry import Polygon
-from fd.utils import BaseConfig, prepare_filesystem
-from fd.scripts.download import batch_download
+from utils import BaseConfig, prepare_filesystem
+from download import batch_download
 import configparser
 import io
 import boto3
