@@ -62,6 +62,9 @@ Change username and environmentname after importing os module if you are using t
 <b> os.environ['PROJ_LIB'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share\\proj' </b><br>
 <b> os.environ['GDAL_DATA'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share' </b>
 
+<br> 
+use the generate_extent.py to create a geojson extent (bounds) of your vector layer
+
 **Usage**
 
 
