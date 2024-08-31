@@ -23,7 +23,7 @@ from sentinelhub import (
     MimeType,
     SentinelHubRequest, SentinelHubBatch, BatchRequestStatus
 )
-from fd.utils import LogFileFilter
+from utils import LogFileFilter
 
 stdout_handler = logging.StreamHandler(sys.stdout)
 stdout_handler.addFilter(LogFileFilter())
