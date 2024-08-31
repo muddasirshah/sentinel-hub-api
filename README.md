@@ -1,5 +1,5 @@
 
-**Sentinel-1 and Sentinel-2 Data Processing Pipeline**
+**Sentinel-1 and Sentinel-2 Imagery Acquisition Pipeline**
 
 
 S1_data_downlaod and S2_data_downlaod are the Python scripts for processing Sentinel-1 radar and Sentinel-2 data. The scripts downloads data from Sentinel Hub, mosaics single time raster tiles, stacks them into stacked band, and saves the resulting file to a local directory.
