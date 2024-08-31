@@ -11,7 +11,7 @@ import logging
 import sys
 import time
 
-from fd.download import (
+from download import (
     DownloadConfig,
     create_batch_request,
     monitor_batch_job,
